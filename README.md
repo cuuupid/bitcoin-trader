@@ -2,10 +2,10 @@
 
 ## List of Models
 
-[*] Naive Bayes Classifier (simple, no stopwords)
-[*] Bag of Words
-[ ] Maximum Entropy
-[ ] Support Vector Machine
+- [*] Naive Bayes Classifier (simple, no stopwords)
+- [*] Bag of Words
+- [ ] Maximum Entropy
+- [ ] Support Vector Machine
 
 ## Utils
 
