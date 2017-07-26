@@ -8,7 +8,7 @@ sw = set(stopwords.words())
 lines=f.readlines()[1:]
 i=0
 for line in lines:
-    new_words = re.sub("[^a-z]","",line.lower().replace(" ","SPACEBAR")).split("SPACEBAR")
+    new_words = re.sub("[^a-zA-Z]","",line.lower().replace(" ","SPACEBAR")).split("SPACEBAR")
     for word in new_words:
         if word.strip() not in word_list and word.strip() not in sw:
             word_list.append(word.strip())
